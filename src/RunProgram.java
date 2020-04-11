@@ -6,7 +6,8 @@ public class RunProgram {
 
 		System.out.println("Hello World");
 		System.out.println("Welcome to programming");
-		System.out.println("Welcome to Devops")
+		System.out.println("Welcome to Devops");
+		System.out.println("Welcome to new world");
 	}
 
 }
