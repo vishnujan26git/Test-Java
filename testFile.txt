@@ -1,1 +1,2 @@
-Protected branches - Cool feature
+Protected branches - Cool feature. 
+You got it
