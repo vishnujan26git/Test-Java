@@ -5,6 +5,8 @@ public class RunProgram {
 		// TODO Auto-generated method stub
 
 		System.out.println("Hello World");
+		System.out.println("Welcome to programming");
+		System.out.println("Welcome to Devops");
 	}
 
 }
