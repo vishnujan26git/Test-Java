@@ -6,8 +6,15 @@ pipeline {
         booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
         choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
+        
    }
    stages {
+   
+   	stage('Build Other Job') {
+            steps {
+                build job: 'Git_Webhooks', quietPeriod: 1
+            }
+         }
       
       stage('Build JAR & Execute') {
          steps {
