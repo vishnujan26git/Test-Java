@@ -35,4 +35,13 @@ pipeline {
             }
          }
    }
+   
+   post{
+       always {
+           echo "Before Deleting Workspace"
+           cleanWs()
+           echo "After Deleting Workspace"
+       }
+   }
+
 }
